@@ -1,0 +1,6 @@
+tensorflow==2.20
+regex
+urllib3==1.26.6
+uvicorn
+fastapi
+pydantic
