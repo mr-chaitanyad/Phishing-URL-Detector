@@ -51,7 +51,7 @@ def predict(request: URLRequest):
         "url":        request.url,
         "prediction": "phishing" if is_spam else "safe",
         "confidence": round(confidence * 100, 2)
-    }
+    }   
 
 @app.get("/predict")
 def predict_get(url: str):
