@@ -4,3 +4,8 @@ urllib3==1.26.6
 uvicorn
 fastapi
 pydantic
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
